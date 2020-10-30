@@ -15,7 +15,7 @@ class NewSpare extends Component {
 
     handleChange = (event) => {
         const {name,value} = event.target;
-
+        console.log(name, value)
         this.setState({
             [name]:value
         })
@@ -42,7 +42,7 @@ render () {
              <input type="text" name="type" id="type" value={this.state.type} onChange={this.handleChange} />
          </label>
          <label>Interface:
-             <select value={this.state.interface} onChange={this.handleChange}>
+             <select name="interface" value={this.state.interface} onChange={this.handleChange}>
                  <option value="empty">empty</option>
                  <option value="I2C">I2C</option>
                  <option value="SPI">SPI</option>
