@@ -1,0 +1,31 @@
+.side-drawer {
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:100;
+    height:100vh;
+    width:66%;
+    background:#006622 ;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.close__drawer-btn {
+    position: absolute;
+    top:0.5rem;
+    right:0.5em;
+    color: white;
+    background: transparent;
+    border: none;
+    border-radius:5px;
+}
+
+.close__drawer-btn:hover,
+.close__drawer-btn:active {
+    background:#FFD700;
+}
+
+@media (min-width: 768px) {
+    .side-drawer {
+        display: none;
+    }
+}

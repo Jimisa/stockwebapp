@@ -1,0 +1,21 @@
+.spare-item {
+    /* text-align: left; */
+    background-color:Beige;
+    border-bottom:2px solid red ;
+    /* padding:5%; */
+
+}
+
+.spare-item a{
+    align-items: left;
+    width:100%;
+    text-decoration: none;
+}
+
+.spare-item td {
+    padding:1% 0px 1% 2%;
+}
+
+.spare-item:hover {
+    background-color:#4CAF50;
+}

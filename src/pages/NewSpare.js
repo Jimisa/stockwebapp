@@ -4,7 +4,7 @@ class NewSpare extends Component {
     initialState = {
         name: '',
         type:'',
-        interface:'empty',
+        interface:'0',
         fonction:'',
         consommation:'',
         caracteristique:'',
@@ -43,10 +43,10 @@ render () {
          </label>
          <label>Interface:
              <select name="interface" value={this.state.interface} onChange={this.handleChange}>
-                 <option value="empty">empty</option>
-                 <option value="I2C">I2C</option>
-                 <option value="SPI">SPI</option>
-                 <option value="Serial">Serial</option>
+                 <option value="0">empty</option>
+                 <option value="1">I2C</option>
+                 <option value="2">SPI</option>
+                 <option value="3">Serial</option>
              </select>
          </label>
          <input type="button" value="Enregistrer" onClick={this.submitForm} />
