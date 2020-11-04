@@ -8,7 +8,12 @@ class NewSpare extends Component {
         fonction:'',
         consommation:'',
         caracteristique:'',
-        unite:''
+        unite:'',
+        tension_min:'',
+        tension_max:'',
+        informations:'',
+        datasheet:{},
+        picture:''
     }
 
     state = this.initialState;

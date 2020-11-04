@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     background:#006622;
-    padding: 1em;
+    /* padding: 1em; */
 }
 
 @media (min-width: 768px) {

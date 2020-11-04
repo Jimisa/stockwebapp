@@ -5,6 +5,7 @@
 .main-navigation__title a {
   text-decoration: none;
   color: white;
+  padding-left: 1em;
 }
 
 .main-navigation__menu-btn {

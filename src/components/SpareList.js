@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import Spareitem from './Spareitem';
 import '../index.css';
 import './SpareList.css';
@@ -30,20 +29,21 @@ const SpareList = (props) => {
             </thead>
             <tbody>
                 {props.items.map(spare => (
-                    // <Link to='/spare/new'>
-                        <Spareitem
-                            key={spare.id}
-                            id={spare.id}
-                            name={spare.name}
-                            fonction={spare.fonction}
-                            type={spare.type}
-                            quantity={spare.quantity}
-                            consommation={spare.consommation}
-                            caracteristique={spare.caracteristique}
-                            unite={spare.unite}
-                            interface={spare.interface}
-                        />
-                    // </Link>
+                    <Spareitem
+                        key={spare.id}
+                        id={spare.id}
+                        name={spare.name}
+                        fonction={spare.fonction}
+                        type={spare.type}
+                        quantity={spare.quantity}
+                        consommation={spare.consommation}
+                        caracteristique={spare.caracteristique}
+                        unite={spare.unite}
+                        interface={spare.interface}
+                        tension_min={spare.tension_min}
+                        tension_max={spare.tension_max}
+                        informations={spare.informations}
+                    />
 
                 ))
                 }

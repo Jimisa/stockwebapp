@@ -13,9 +13,22 @@
 }
 
 .spare-item td {
-    padding:1% 0px 1% 2%;
+    padding:1% 0px 1% 1em;
 }
 
 .spare-item:hover {
     background-color:#4CAF50;
+}
+
+.itemlist-btn {
+    border: 1px hidden;
+    margin-left: 0.875em;
+    color:white;
+    background: red;
+    border-radius: 4px;
+    padding: 0.5em;
+}
+
+.itemlist-btn:hover {
+    background:#cd400b;
 }

@@ -1,0 +1,16 @@
+.spare-details {
+    max-width: 66%;
+    margin-left: 3.5em;
+    margin-top: 2.5em;
+}
+
+.spare-details th {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+.spare-details td{
+    padding-left: 1em;
+}
